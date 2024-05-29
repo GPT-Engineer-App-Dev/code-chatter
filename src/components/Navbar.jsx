@@ -22,6 +22,9 @@ const Navbar = () => {
           <Link as={NavLink} to="/profile" px={2} py={1} color="white" _hover={{ textDecoration: "none", bg: "brand.700" }}>
             Profile
           </Link>
+          <Link as={NavLink} to="/register" px={2} py={1} color="white" _hover={{ textDecoration: "none", bg: "brand.700" }}>
+            Register
+          </Link>
         </Flex>
       </Flex>
     </Box>

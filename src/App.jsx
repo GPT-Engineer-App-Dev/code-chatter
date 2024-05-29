@@ -3,6 +3,7 @@ import Index from "./pages/Index.jsx";
 import Categories from "./pages/Categories.jsx";
 import LatestPosts from "./pages/LatestPosts.jsx";
 import Profile from "./pages/Profile.jsx";
+import Register from "./pages/Register.jsx";
 import Navbar from "./components/Navbar.jsx";
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <Route exact path="/categories" element={<Categories />} />
         <Route exact path="/latest-posts" element={<LatestPosts />} />
         <Route exact path="/profile" element={<Profile />} />
+        <Route exact path="/register" element={<Register />} />
       </Routes>
     </Router>
   );
